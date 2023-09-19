@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F98E06;
+}
+
+.header > img {
+    width: 72px;
+    height: 72px;
+    padding: 10px 0;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.header > img:hover {
+    transform: scale(1.05);
+}
+
+nav > ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+ul > li {
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+    transition: all .3s ease;
+}
+
+ul > li:hover {
+    transform: scale(1.1);
+}
+
+.header > button {
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 5px 15px;
+    color: #fff;
+    font-size: 16px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.header > button:hover {
+    transform: scale(1.05);
+}
